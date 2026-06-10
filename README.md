@@ -23,10 +23,14 @@ To view the site locally:
 
 1. **Clone the repository**:
    ```bash
-   git clone git@github.com:mikeysi124/mike-simple-portfolio.git
+   git clone git@github.com:mikeysi124/mike-simple-portfolio.git docs
    ```
-2. **Open the project**:
-   Simply open `index.html` in any modern web browser.
+2. **Navigate and open**:
+   ```bash
+   cd docs
+   open index.html
+   ```
+   Or simply open `index.html` in any modern web browser.
 
 ## 📂 Project Structure
 
