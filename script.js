@@ -1,12 +1,26 @@
-// Future interactivity can go here
 document.addEventListener('DOMContentLoaded', () => {
     console.log('Kittipot Mike Portfolio Loaded');
     
-    // Smooth scroll for nav links (already handled by CSS, but good to have)
-    const links = document.querySelectorAll('nav a');
-    links.forEach(link => {
-        link.addEventListener('click', (e) => {
-            // CSS handles this smoothly, keeping JS minimal
-        });
-    });
+    const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+    const currentTheme = localStorage.getItem('theme');
+
+    if (currentTheme) {
+        document.documentElement.setAttribute('data-theme', currentTheme);
+
+        if (currentTheme === 'light') {
+            toggleSwitch.checked = true;
+        }
+    }
+
+    function switchTheme(e) {
+        if (e.target.checked) {
+            document.documentElement.setAttribute('data-theme', 'light');
+            localStorage.setItem('theme', 'light');
+        } else {
+            document.documentElement.setAttribute('data-theme', 'dark');
+            localStorage.setItem('theme', 'dark');
+        }    
+    }
+
+    toggleSwitch.addEventListener('change', switchTheme, false);
 });
