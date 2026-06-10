@@ -1,32 +1,50 @@
 # Kittipot Mike | Financial Planner Portfolio
 
-A modern, minimalist portfolio website for a financial planner, built with vanilla HTML, CSS, and JavaScript.
+A professional, minimalist portfolio website for a financial planner, featuring a modern design with light/dark mode support. Built using vanilla web technologies.
 
-## Features
-- **Modern Dark Theme:** Deep charcoal background with emerald green accents.
-- **Typography:** Uses the **JetBrains Mono** font for a clean, technical aesthetic.
-- **Responsive Design:** Fully mobile-friendly layout.
-- **Project Showcase:** Highlights key financial strategy case studies.
-- **Contact Integration:** Easy access to contact details.
+## 🌟 Features
 
-## Tech Stack
-- HTML5
-- CSS3 (Vanilla)
-- JavaScript (Vanilla)
-- Google Fonts (JetBrains Mono)
+- **Modern Design**: Deep charcoal background with emerald green accents (Dark Mode) or a clean light aesthetic.
+- **Theme Toggle**: Seamless switching between Sun (Light) and Moon (Dark) themes with icon transitions.
+- **Typography**: Uses **JetBrains Mono** for a distinct, technical, and professional feel.
+- **Responsive Layout**: Fully optimized for mobile, tablet, and desktop viewing.
+- **Project Showcase**: Highlights key expertise in Retirement Strategy, Wealth Diversification, and Estate Planning.
 
-## Local Setup
+## 🛠️ Tech Stack
+
+- **HTML5**: Semantic structure.
+- **CSS3**: Custom properties (CSS variables) for theme management and modern layout (Grid/Flexbox).
+- **JavaScript (ES6)**: Pure vanilla JS for theme persistence (LocalStorage) and UI interactions.
+- **Google Fonts**: [JetBrains Mono](https://fonts.google.com/specimen/JetBrains+Mono).
+
+## 🚀 Getting Started
+
 To view the site locally:
-1. Clone the repository.
-2. Open `index.html` in your preferred web browser.
 
-## Deployment
-This site is designed to be hosted on **GitHub Pages**.
+1. **Clone the repository**:
+   ```bash
+   git clone git@github.com:mikeysi124/mike-simple-portfolio.git
+   ```
+2. **Open the project**:
+   Simply open `index.html` in any modern web browser.
 
-1. Push the code to a GitHub repository.
-2. Go to **Settings > Pages**.
-3. Select the `main` branch and the `/ (root)` folder as the source.
-4. Save and wait for the deployment to finish.
+## 📂 Project Structure
+
+- `index.html`: Main entry point and layout.
+- `style.css`: All styling including theme variables and responsive rules.
+- `script.js`: Theme switching logic and LocalStorage integration.
+- `plan/`: Original project planning documentation.
+
+## 🌐 Deployment
+
+This site is optimized for **GitHub Pages**.
+
+1. Push your changes to the `main` branch.
+2. Navigate to your repository on GitHub.
+3. Go to **Settings > Pages**.
+4. Set the **Source** to the `main` branch and folder to `/ (root)`.
+5. Your site will be live at `https://mikeysi124.github.io/mike-simple-portfolio/`.
 
 ---
-Created by Kittipot Mike.
+
+&copy; 2024 Kittipot Mike.
